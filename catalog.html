@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог товаров - ООО "Кот на арбузе"</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/catalog.css">
+</head>
+<body>
+<header>
+  <div class="top-menu">
+    <div class="logo">ООО "Лотос"</div>
+    <div class="search-cart">
+      <input type="text" placeholder="Поиск по сайту">
+      <button class="btn">Корзина покупок (<span class="cart-count">0</span>)</button>
+      <a href="#">Войти или зарегистрироваться</a>
+    </div>
+  </div>
+  <nav class="main-menu">
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="about.html">О нас</a></li>
+      <li><a href="delivery.html">Доставка и оплата</a></li>
+      <li><a href="news.html">Новости</a></li>
+      <li><a href="recipes.html">Рецепты</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="content">
+  <main class="main-content">
+    <h1 class="section-title">Каталог товаров</h1>
+
+    <div class="catalog-filters">
+      <button class="filter-btn active">Все товары</button>
+      <button class="filter-btn" data-category="арбузы">Арбузы</button>
+      <button class="filter-btn" data-category="сырники">Сырники</button>
+      <button class="filter-btn" data-category="гранаты">Гранаты</button>
+      <button class="filter-btn" data-category="кошачья мята">Кошачья мята</button>
+    </div>
+
+  <div class="category">
+    <h2>Арбузы</h2>
+    <div class="products-grid">
+
+      <div class="product-card" data-id="1" data-category="арбузы">
+        <img src="images/bigArbuz.jpg" alt="Арбуз(Башой)">
+        <h3>Башой арбуз для всей семьи котят</h3>
+        <p class="price">200 р.</p>
+        <p class="weight">10 кг</p>
+        <div class="rating">★★★★☆</div>
+        <button class="btn btn-add-to-cart">В корзину</button>
+      </div>
+
+      <div class="product-card" data-id="2" data-category="арбузы">
+        <img src="images/mediumArbuz.jpg" alt="Арбуз(Средни)">
+        <h3>Средни арбуз для небольшой семьи котят</h3>
+        <p class="price">150 р.</p>
+        <p class="weight">5 кг</p>
+        <div class="rating">★★★★★</div>
+        <button class="btn btn-add-to-cart">В корзину</button>
+      </div>
+
+      <div class="product-card" data-id="3" data-category="арбузы">
+        <img src="images/smallArbuz.jpg" alt="Арбуз(Махонький)">
+        <h3>Махонький арбузик для 1-2 котят</h3>
+        <p class="price">80 р.</p>
+        <p class="weight">2 кг</p>
+        <div class="rating">★★★☆☆</div>
+        <button class="btn btn-add-to-cart">В корзину</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>Сырники</h2>
+    <div class="products-grid">
+
+      <div class="product-card" data-id="4" data-category="сырники">
+        <img src="images/sirnikiMango.jpg" alt="Сырнеке с манго">
+        <h3>Кокосовые сырники с манговым кремом</h3>
+        <p class="price">299.00 р.</p>
+        <p class="weight">400 г</p>
+        <div class="rating">★★★★☆</div>
+        <button class="btn btn-add-to-cart">В корзину</button>
+      </div>
+
+      <div class="product-card" data-id="5" data-category="сырники">
+        <img src="images/sirnikiSimple.jpg" alt="Просто сырники">
+        <h3>Сырники раздора, сырники позора</h3>
+        <p class="price">200.00 р.</p>
+        <p class="weight">200 г</p>
+        <div class="rating">★★★★★</div>
+        <button class="btn btn-add-to-cart">В корзину</button>
+      </div>
+    </div>
+  </div>
+
+    <div class="category">
+      <h2>Гранаты</h2>
+      <div class="products-grid">
+
+        <div class="product-card" data-id="6" data-category="гранаты">
+          <img src="images/pomegranate.jpg" alt="Гранат">
+          <h3>Крутой сочный гранат</h3>
+          <p class="price">150.00 р.</p>
+          <p class="weight">200 г</p>
+          <div class="rating">★★★★☆</div>
+          <button class="btn btn-add-to-cart">В корзину</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>Кошачья мята</h2>
+      <div class="products-grid">
+
+        <div class="product-card" data-id="7" data-category="кошачья мята">
+          <img src="images/catMint.jpg" alt="Кошачья мята">
+          <h3>Коты дуреют с этой прикормки</h3>
+          <p class="price">50.00 р.</p>
+          <p class="weight">30 г</p>
+          <div class="rating">★★★★☆</div>
+          <button class="btn btn-add-to-cart">В корзину</button>
+        </div>
+
+      </div>
+    </div>
+</main>
+
+  <footer>
+    <p>Создатель - Бородин Никита Сергеевич ПрИ-23</p>
+    <p>ООО "Кот на арбузе" © 2025</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  </div>
+  </body>
+</html>

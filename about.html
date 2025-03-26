@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас - ООО "Кот на арбузе"</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Специфичные стили для страницы "О нас" */
+        .team-member {
+            display: flex;
+            margin-bottom: 30px;
+            align-items: flex-start;
+        }
+
+        .member-photo {
+            width: 150px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .member-info {
+            flex: 1;
+        }
+
+        .member-info h3 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+
+        .about-text {
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="top-menu">
+        <div class="logo">ООО "Кот на арбузе"</div>
+        <div class="search-cart">
+            <input type="text" placeholder="Поиск по сайту">
+            <button class="btn">Корзина покупок (<span class="cart-count">0</span>)</button>
+            <a href="#">Войти или зарегистрироваться</a>
+        </div>
+    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="delivery.html">Доставка и оплата</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="recipes.html">Рецепты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <main class="main-content">
+        <h1 class="section-title">О нашей компании</h1>
+
+        <div class="about-text">
+            <p>ООО "Кот на арбузе" - это современный интернет-магазин продуктов питания, работающий с 2025 года. Мы предлагаем только свежие и качественные товары по доступным ценам. Наша миссия - сделать покупку продуктов удобной и приятной для каждого клиента.</p>
+            <p>Мы сотрудничаем напрямую с производителями и фермерскими хозяйствами, чтобы гарантировать свежесть и качество наших продуктов. Наш ассортимент постоянно расширяется, чтобы удовлетворить потребности самых взыскательных покупателей.</p>
+        </div>
+
+        <h2 class="section-title">Наша команда</h2>
+
+        <div class="team-member">
+            <img src="images/team1.jpg" alt="Якимова Ксения Игоревна" class="member-photo">
+            <div class="member-info">
+                <h3>Якимова Ксения Игоревна</h3>
+                <p><strong>Должность:</strong> Менеджер по арбузам</p>
+                <p><strong>Образование:</strong> Высшее арбузное</p>
+                <p><strong>Увлечения:</strong> Арбузы и котики</p>
+                <p>Ксения работает с арбузами с момента их изобретения. Отвечает за взаимодействие с котами и формирование арбузного ассортимента.</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="images/team2.jpg" alt="Овчинникова Дарья Арбузовна" class="member-photo">
+            <div class="member-info">
+                <h3>Овчинникова Дарья Арбузовна</h3>
+                <p><strong>Должность:</strong> Арбузолог</p>
+                <p><strong>Образование:</strong> Высшее котейное</p>
+                <p><strong>Увлечения:</strong> Коты, арбузы</p>
+                <p>Мария отвечает за продвижение нашего магазина и разработку акционных предложений для котиков.</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="images/myphoto.jpg" alt="Бородин Никита Сергеевич" class="member-photo">
+            <div class="member-info">
+                <h3>Бородин Никита Сергеевич</h3>
+                <p><strong>Должность:</strong> Кот на арбузе</p>
+                <p><strong>Образование:</strong> Арбузное</p>
+                <p><strong>Увлечения:</strong> Котики и арбузики</p>
+                <p>Мяу мяу мяу мяу.</p>
+            </div>
+        </div>
+    </main>
+
+    <aside class="sidebar">
+        <section>
+            <h3>Наши преимущества</h3>
+            <ul>
+                <li>Свежие продукты</li>
+                <li>Быстрая доставка</li>
+                <li>Гибкая система скидок</li>
+                <li>Экологичная упаковка</li>
+                <li>Профессиональные консультации</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Награды</h3>
+            <p>Лучший интернет-магазин продуктов 2025 года по субъективному мнению</p>
+            <img src="images/award.jpg" alt="Награда" style="width:100%; margin-top:10px;">
+        </section>
+    </aside>
+</div>
+
+<footer>
+    <p>Создатель - Бородин Никита Сергеевич ПрИ-23</p>
+    <p>ООО "Кот на арбузе" © 2025</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

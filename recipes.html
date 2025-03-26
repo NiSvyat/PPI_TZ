@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Рецепты - ООО "Кот на арбузе"</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/recipes.css">
+</head>
+<body>
+<header>
+  <div class="top-menu">
+    <div class="logo">ООО "Кот на арбузе"</div>
+    <div class="search-cart">
+      <input type="text" placeholder="Поиск по сайту">
+      <button class="btn">Корзина покупок (<span class="cart-count">0</span>)</button>
+      <a href="#">Войти или зарегистрироваться</a>
+    </div>
+  </div>
+  <nav class="main-menu">
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="about.html">О нас</a></li>
+      <li><a href="delivery.html">Доставка и оплата</a></li>
+      <li><a href="news.html">Новости</a></li>
+      <li><a href="recipes.html">Рецепты</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="content">
+  <main class="main-content">
+    <h1 class="section-title">Кулинарные рецепты</h1>
+
+    <div class="recipe-filters">
+      <button class="btn active">Все рецепты</button>
+      <button class="btn">Завтраки</button>
+      <button class="btn">Обеды</button>
+      <button class="btn">Ужины</button>
+      <button class="btn">Десерты</button>
+    </div>
+
+    <div class="recipe-card">
+      <div class="recipe-image">
+        <img src="images/recipe1.jpg" alt="Салат Цезарь">
+      </div>
+      <div class="recipe-content">
+        <h2 class="recipe-title">Салат Цезарь с курицей</h2>
+        <p class="recipe-meta">Время приготовления: 30 минут | Сложность: Легко</p>
+        <div class="ingredients">
+          <h3>Ингредиенты (на 2 порции):</h3>
+          <ul>
+            <li>Листья салата - 1 пучок</li>
+            <li>Куриное филе - 300 г</li>
+            <li>Сухарики - 100 г</li>
+            <li>Сыр Пармезан - 50 г</li>
+            <li>Соус Цезарь - по вкусу</li>
+            <li>Чеснок - 1 зубчик</li>
+            <li>Оливковое масло - 2 ст.л.</li>
+          </ul>
+        </div>
+        <div class="instructions">
+          <h3>Способ приготовления:</h3>
+          <ol>
+            <li>Куриное филе нарезать полосками, посолить, поперчить. Обжарить на оливковом масле с чесноком до готовности.</li>
+            <li>Листья салата промыть, обсушить и порвать руками на крупные куски.</li>
+            <li>На сухой сковороде обжарить сухарики до золотистого цвета.</li>
+            <li>В большой миске смешать салат, курицу и сухарики.</li>
+            <li>Заправить соусом Цезарь, аккуратно перемешать.</li>
+            <li>Перед подачей посыпать тертым пармезаном.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="recipe-card">
+      <div class="recipe-image">
+        <img src="images/recipe2.jpg" alt="Паста Карбонара">
+      </div>
+      <div class="recipe-content">
+        <h2 class="recipe-title">Паста Карбонара</h2>
+        <p class="recipe-meta">Время приготовления: 25 минут | Сложность: Средне</p>
+        <div class="ingredients">
+          <h3>Ингредиенты (на 2 порции):</h3>
+          <ul>
+            <li>Спагетти - 250 г</li>
+            <li>Бекон - 150 г</li>
+            <li>Сливки 20% - 200 мл</li>
+            <li>Яйца - 2 шт.</li>
+            <li>Сыр Пармезан - 50 г</li>
+            <li>Чеснок - 2 зубчика</li>
+            <li>Соль, перец - по вкусу</li>
+          </ul>
+        </div>
+        <div class="instructions">
+          <h3>Способ приготовления:</h3>
+          <ol>
+            <li>Спагетти отварить в подсоленной воде согласно инструкции на упаковке.</li>
+            <li>Бекон нарезать небольшими кусочками и обжарить до хрустящей корочки.</li>
+            <li>В отдельной миске взбить яйца со сливками, добавить тертый сыр, соль и перец.</li>
+            <li>Чеснок измельчить и добавить к бекону, обжарить 1 минуту.</li>
+            <li>Слить воду со спагетти, оставив немного воды.</li>
+            <li>Смешать горячие спагетти с беконом, затем добавить яично-сливочную смесь, быстро перемешивая.</li>
+            <li>Подавать сразу, посыпав дополнительно тертым сыром.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagination">
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn">Следующая →</button>
+    </div>
+  </main>
+
+  <aside class="sidebar">
+    <section>
+      <h3>Категории рецептов</h3>
+      <ul>
+        <li><a href="#">Завтраки</a></li>
+        <li><a href="#">Салаты</a></li>
+        <li><a href="#">Супы</a></li>
+        <li><a href="#">Основные блюда</a></li>
+        <li><a href="#">Выпечка</a></li>
+        <li><a href="#">Десерты</a></li>
+        <li><a href="#">Напитки</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Советы шеф-повара</h3>
+      <div class="tip">
+        <p><strong>Как выбрать свежие овощи:</strong> Обращайте внимание на цвет, запах и упругость. Свежие овощи должны быть без пятен и повреждений.</p>
+      </div>
+      <div class="tip">
+        <p><strong>Хранение зелени:</strong> Промойте, высушите, заверните в бумажное полотенце и поместите в контейнер в холодильник.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Предложения недели</h3>
+      <div class="promo-product">
+        <img src="images/promo1.jpg" alt="Спецпредложение" style="width:100%; border-radius:5px;">
+        <p>Свежие овощи для салатов со скидкой 20%!</p>
+      </div>
+    </section>
+  </aside>
+</div>
+
+<footer>
+  <p>Создатель - Бородин Никита Сергеевич ПрИ-23</p>
+  <p>ООО "Кот на арбузе" © 2025</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости и акции - ООО "Кот на арбузе"</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+<header>
+    <div class="top-menu">
+        <div class="logo">ООО "Кот на арбузе"</div>
+        <div class="search-cart">
+            <input type="text" placeholder="Поиск по сайту">
+            <button class="btn">Корзина покупок (<span class="cart-count">0</span>)</button>
+            <a href="#">Войти или зарегистрироваться</a>
+        </div>
+    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="delivery.html">Доставка и оплата</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="recipes.html">Рецепты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <main class="main-content">
+        <h1 class="section-title">Новости и акции</h1>
+
+        <div class="promo-banner">
+            <h2>Специальное предложение!</h2>
+            <p>Только до конца месяца скидка 15% на все продукты из категории "Здоровое питание". Успейте купить!</p>
+            <button class="btn" style="margin-top:10px;">Подробнее об акции</button>
+        </div>
+
+        <div class="news-item">
+            <div class="news-image">
+                <img src="images/news1.jpg" alt="Новое поступление">
+            </div>
+            <div class="news-content">
+                <h2 class="news-title">Новое поступление фермерских продуктов</h2>
+                <p class="news-date">1 января 2025</p>
+                <p>Мы рады сообщить о поступлении новой партии фермерских продуктов от проверенных поставщиков. В ассортименте: свежие овощи, молочная продукция, яйца и мясо. Все продукты прошли строгий контроль качества и имеют соответствующие сертификаты.</p>
+                <p>Особое внимание обратите на новинки: сыр "Гауда" от фермерского хозяйства "Зеленый луг" и экологически чистое куриное филе без антибиотиков.</p>
+                <a href="#" class="btn">Читать далее</a>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <div class="news-image">
+                <img src="images/news2.jpg" alt="Изменение графика">
+            </div>
+            <div class="news-content">
+                <h2 class="news-title">Изменение графика работы в праздничные дни</h2>
+                <p class="news-date">10 февраля 2025</p>
+                <p>Уважаемые покупатели! Обратите внимание на изменения в графике работы нашего магазина в предстоящие праздничные дни:</p>
+                <ul>
+                    <li>3 ноября - работаем до 18:00</li>
+                    <li>4 ноября - выходной день</li>
+                    <li>5 ноября - с 10:00 до 20:00</li>
+                </ul>
+                <p>Доставка заказов в эти дни будет осуществляться по измененному графику.</p>
+                <a href="#" class="btn">Читать далее</a>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <div class="news-image">
+                <img src="images/news3.jpg" alt="Конкурс">
+            </div>
+            <div class="news-content">
+                <h2 class="news-title">Конкурс "Лучший рецепт осени"</h2>
+                <p class="news-date">15 марта 2025</p>
+                <p>Примите участие в нашем конкурсе и выиграйте подарочный сертификат на 5000 рублей! Для участия необходимо:</p>
+                <ol>
+                    <li>Придумать оригинальный осенний рецепт с использованием продуктов из нашего магазина</li>
+                    <li>Приготовить блюдо и сделать красивое фото</li>
+                    <li>Опубликовать рецепт с фото в своих соцсетях с хэштегом #КотятаПоварятаНаАрбузе</li>
+                </ol>
+                <p>Конкурс продлится до 30 июня. Итоги будут подведены 1 августа.</p>
+                <a href="#" class="btn">Читать далее</a>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">Следующая →</button>
+        </div>
+    </main>
+
+    <aside class="sidebar">
+        <section>
+            <h3>Архив новостей</h3>
+            <ul class="archive-list">
+                <li><a href="#">Январь 2025</a></li>
+                <li><a href="#">Февраль 2025</a></li>
+                <li><a href="#">Март 2025</a></li>
+                <li><a href="#">Апрель 2025</a></li>
+                <li><a href="#">Май 2025</a></li>
+                <li><a href="#">Июнь 2025</a></li>
+                <li><a href="#">Июль 2025</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Подписка на новости</h3>
+            <p>Будьте в курсе всех акций и новинок! Подпишитесь на нашу рассылку:</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Ваш email" required>
+                <button type="submit" class="btn" style="width:100%; margin-top:10px;">Подписаться</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Горячие акции</h3>
+            <div class="promo-item">
+                <img src="images/promo2.jpg" alt="Акция" style="width:100%; border-radius:5px;">
+                <p style="margin-top:10px;">Скидка 10% на все молочные продукты при заказе от 2000 руб.</p>
+            </div>
+        </section>
+    </aside>
+</div>
+
+<footer>
+    <p>Создатель - Бородин Никита Сергеевич ПрИ-23</p>
+    <p>ООО "Кот на арбузе" © 2025</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

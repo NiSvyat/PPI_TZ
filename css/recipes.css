@@ -1,0 +1,68 @@
+﻿/* Специфичные стили для страницы рецептов */
+.recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+}
+
+.recipe-image {
+    width: 300px;
+    min-height: 200px;
+    background-color: #f5f5f5;
+}
+
+.recipe-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.recipe-title {
+    color: #4CAF50;
+    margin-top: 0;
+}
+
+.recipe-meta {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.ingredients {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.ingredients h3 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .recipe-card {
+        flex-direction: column;
+    }
+
+    .recipe-image {
+        width: 100%;
+        height: 200px;
+    }
+}
